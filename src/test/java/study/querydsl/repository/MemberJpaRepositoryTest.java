@@ -19,7 +19,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 @Transactional
-class MemberJpaRepositoryTest {
+class MemberJpaRepositoryTest { //spring data jpa 사용 X
 
     @Autowired
     EntityManager em;
